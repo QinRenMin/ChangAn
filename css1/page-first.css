@@ -1,0 +1,275 @@
+body{
+    background-size: 100%;
+   // background: url(2.jpeg) no-repeat left top ;
+}
+#container{
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    left: 100px;
+    top: 160px;
+    //background-color: yellow;
+
+}
+
+#img{
+    width:600px;
+    height: 400px;
+}
+
+
+
+#img li{
+    width:600px;
+    height: 400px;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+
+
+img {
+    width:100%;
+    height: 100%;
+}
+
+#index{
+    position: absolute;
+    left:200px;
+    bottom:-20px;
+    cursor: pointer;
+}
+
+
+#index li{
+    width:10px;
+    height: 10px;
+    border: solid 1px gray;
+    border-radius: 100%;
+    background-color: white;
+    display: inline-block;
+    margin-right: -20px;
+    cursor: pointer;
+}
+
+#index .on{
+    background-color: black;
+    cursor: pointer;
+}
+
+#img .opa-on{
+    opacity: 1;
+}
+
+
+.arrow{
+    position: absolute;
+    top: 230px;
+    /*z-index: 2;*/
+    display: none;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    background-color: RGBA(0, 0, 0, .3);
+    cursor: pointer;
+}
+.arrow:hover {
+
+    background-color: RGBA(0, 0, 0, .7);
+
+}
+
+
+#container:hover .arrow {
+
+    display: block;
+
+}
+
+
+#prev {
+
+// right:20px;
+    margin-left: 40px;
+    text-decoration: none;
+
+}
+
+
+#next {
+    right: 40px;
+    text-decoration: none;
+
+}
+
+.right-first{
+    margin-top: 200px;
+    width: 450px;
+    height: 400px;
+    position: absolute;
+    right: 100px;
+   // background-color: yellowgreen;
+}
+.new,.July,.thirty,.orange,.course{
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    color: darkblue;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: "Leelawadee UI", Segoe, Arial, sans-serif;
+    text-align: left;
+    line-height: 50px;
+    padding-left: 15px;
+    border:none;
+//background-color: RGBA(255, 97,0);
+    background-color: orange;
+    opacity: 0.8;
+    display: inline-block;
+    text-decoration: none;
+
+}
+.July,.thirty,.orange,.course{
+    margin-top: 35px;
+}
+.new:hover{
+    background-color: RGBA(65, 105, 225, .8);
+}
+.thirty:hover{
+    background-color: RGBA(65, 105, 225, .8);
+}
+.orange:hover{
+    background-color: RGBA(65, 105, 225, .8);
+}
+.course:hover{
+    background-color: RGBA(65, 105, 225, .8);
+}
+.July:hover{
+    background-color: RGBA(65, 105, 225, .8);
+}
+.h1-page{
+    position: absolute;
+    left: 200px;
+    font-family: "Adobe 宋体 Std L";
+    color:#019157;
+    background-color: yellow;
+    height: 50px;
+    top: 30px;
+
+}
+.h2-page{
+position: absolute;
+    left: 200px;
+    top: 90px;
+    font-family: "Adobe 楷体 Std R";
+    color: #019157;
+
+
+}
+.picture{
+    width: 250px;
+    height: 128px;
+    position:fixed;
+    right: 200px;
+}
+.scroll{
+    position: relative;
+    width: 100%;
+    height:100%
+}
+.picture-huajuan{
+    position: absolute;
+    width:100%;
+    height: 180px;
+}
+.swiper-slide h1{
+    position: absolute;
+    top: 50px;
+    left: 500px;
+    padding: 30px;
+    display: inline-block;
+
+}
+
+.cover1, .cover2, .cover3,.cover4{
+    position: absolute;
+    top: 60px;
+   // margin-top: 60px;
+
+}
+.cover5,.cover6,.cover7,.cover8{
+    position:absolute;
+    top: 480px;
+    margin-top:350px;
+}
+.intervenor-info1,.intervenor-info2,.intervenor-info3,.intervenor-info4{
+    position: absolute;
+    top: 672px;
+    margin-top: 60px;
+    background-color: darkgrey;
+    width: 135px;
+    height: 18px;
+
+}
+.intervenor-info5,.intervenor-info6,.intervenor-info7,.intervenor-info8 {
+    position: absolute;
+    top: 672px;
+    margin-top: 350px;
+    background-color: darkgrey;
+    width: 135px;
+    height: 18px;
+}
+.cover1,.intervenor-info1,.title1,.author1,.cover5,.intervenor-info5,.author5,.title5{
+    left: 130px;
+}
+.intervenor-info2, .title2, .author2, .cover2,.cover6,.intervenor-info6,.author6,.title6{
+    left: 290px;
+}
+.intervenor-info3, .title3, .author3, .cover3,.intervenor-info7,.title7,.author7,.cover7{
+    left: 448px;
+}
+.intervenor-info4, .title4, .author4,.cover4,.intervenor-info8, .title8, .author8,.cover8{
+    left: 614px;
+}
+.title1, .title2, .title3, .title4{
+    font-size: 14px;
+    width: 135px;
+    height: 18px;
+    position: absolute;
+    top: 690px;
+    margin-top: 60px;
+}
+.title5,.title6,.title7,.title8{
+    font-size: 14px;
+    width: 135px;
+    height: 18px;
+    position: absolute;
+    top: 690px;
+    margin-top: 350px;
+}
+span{
+    font-size: 15px;
+}
+
+.author1, .author2, .author3, .author4{
+    font-size: 14px;
+    width: 135px;
+    height: 18px;
+    position: absolute;
+    top: 704px;
+    margin-top: 60px;
+
+}
+.author5,.author6,.author7,.author8{
+    font-size: 14px;
+    width: 135px;
+    height: 18px;
+    position: absolute;
+    top: 704px;
+    margin-top: 350px;
+}

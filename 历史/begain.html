@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+		.box1_haha{
+			width: 30px;
+			height: 30px;
+			background-color: red;
+			border-radius: 50%;
+			position: relative;
+			margin: auto;
+			animation: myfirst 5s;
+		}
+		.box1_haha::after{
+			position: absolute;
+			content: '';
+			width: 50%;
+			height: 50%;
+			background-color:red;
+			transform: rotate(45deg);
+			left: 25%;
+			top: -10%;
+		}
+		@keyframes myfirst
+		{
+			from{top: 0px;width: 30px;height: 30px;}
+			to{top: 300px;width: 100px;height: 100px;}
+		}
+	</style>
+</head>
+<body>
+	<div class="box1_haha"></div>
+</body>
+</html>

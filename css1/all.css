@@ -1,0 +1,36 @@
+
+body,html {
+	height: 100%;
+	min-width: 900px;
+	min-height: 600px;
+}
+
+
+#page-1 {
+
+background: url(6.jpeg) top  no-repeat;
+	background-size:100% 100%;
+
+
+
+
+}
+
+#page-2 {
+	background: url(7.jpg) top center no-repeat;
+	background-size:100% 100%;
+
+}
+#page-3 {
+	background: url(7.jpg) top center no-repeat;
+	background-size:100% 100%;
+}
+#page-4 {
+	background-color: blue;
+}
+
+
+.swiper-container {
+	height: 100%;
+	width: 100%;
+}

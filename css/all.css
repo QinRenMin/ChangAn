@@ -1,0 +1,23 @@
+/*#page-3 {
+	width: 100%;
+	background-color: black;
+}*/
+body,html {
+	height: 100%;
+	min-width: 900px;
+	min-height: 600px;
+}
+
+
+#page-1 {
+	background-color: #4FA1D9;
+}
+
+#page-2 {
+}
+
+
+.swiper-container {
+	height: 100%;
+	width: 100%;
+}

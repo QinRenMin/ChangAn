@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.page3-box{
+	position: relative;
+	width: 900px;
+	height: auto;
+	margin: auto;
+	margin-top: 5%;
+}
+.page3-row{
+	position: relative;
+	float: left;
+	width: 900px;
+	height: 120px;
+	margin: auto;
+	animation: heights_go 1.5s;
+	animation-fill-mode:forwards;
+}
+.page3-row-back{
+	position: relative;
+	float: left;
+	width: 900px;
+	height: 120px;
+	margin: auto;
+	animation: heights_back 1.5s;
+	animation-fill-mode:forwards;
+}
+.page3-rage{
+	width: 160px;
+	height:100px;
+	position: relative;
+	float: left;
+	animation:myfirst 1.5s;
+ /*   animation-iteration-count:1;*/
+    animation-fill-mode:forwards;
+   /* animation-direction:alternate;*/
+   overflow: hidden;
+}
+.page3-rage1{
+	width: 160px;
+	height:100px;
+	position: relative;
+	float: left;
+	animation:mysecond 1.5s;
+ /*   animation-iteration-count:1;*/
+    animation-fill-mode:forwards;
+    overflow: hidden;
+}
+.page3-rage-img{
+	position: absolute;
+	width: 160px;
+	height: 100px;
+	animation:go 1.5s;
+	animation-fill-mode:forwards;
+}
+.page3-rage-img1{
+	position: absolute;
+	width: 160px;
+	height: 100px;
+	animation:back 1.5s;
+	animation-fill-mode:forwards;
+}
+.page3-rage1-img{
+	position: absolute;
+	width: 800px;
+	height: 500px;
+	background-size:800px 500px;
+	overflow: hidden;
+	background-image: url(../img/0.jpg);
+}
+@keyframes myfirst
+{
+from {margin: 10px;left: 0px;}
+to {transform:rotate(0deg);margin: 0px;left: 50px;}
+}
+@keyframes mysecond
+{
+from {transform:rotate(0deg);margin: 0px;left: 50px;}
+to {margin: 10px;left: 0px;}
+}
+@keyframes go
+{
+from{opacity: 1}
+to{opacity: 0;}
+}
+@keyframes back
+{
+from{opacity: 0}
+to{opacity: 1;}
+}
+@keyframes heights_go
+{
+from{height: 120px;}
+to{height: 100px;}
+}
+@keyframes heights_back
+{
+from{height: 100px;}
+to{height: 120px;}
+}

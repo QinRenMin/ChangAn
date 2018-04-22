@@ -1,0 +1,312 @@
+body{
+    background: url(6.jpg) no-repeat left top;
+    background-size: 100%;
+}
+.ranking-list{
+    width: 660px;
+    height: 800px;
+   // background-color: red;
+    position: absolute;
+    left: 60px;
+    top: 50px;
+  //  margin-top: 140px;
+
+}
+.hua-mountain{//1
+    width: 350px;
+    height: 260px;
+ //background-color: green;
+    position: absolute;
+    margin-top: 20px;
+
+}
+
+.aboutgene{//3
+    width: 350px;
+    height: 260px;
+ //background-color: green;
+    position: absolute;
+    top: 275px;
+    margin-top: 20px;
+}
+.aboutprinciple{//2
+    width: 350px;
+    height: 260px;
+  //  background-color: green;
+    position:absolute;
+    top: 20px;
+    margin-top: -20px;
+    left: 440px;
+}
+.about-time{//4
+    width: 350px;
+    height: 260px;
+// background-color: green;
+    position: absolute;
+    top: 296px;
+    left: 440px;
+}
+
+.about-mountain{//5
+width: 350px;
+    height: 260px;
+//background-color: green;
+    position: absolute;
+    top: 450px;
+    margin-top: 145px;
+}
+
+.about-dynasty{//6
+width: 350px;
+    height: 260px;
+//background-color: green;
+    position: absolute;
+    top: 450px;
+    margin-top: 145px;
+    left: 440px;
+}
+
+.book{
+    position: absolute;
+    left: 210px;
+    height: 10px;
+    width:150px;
+    top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -10px;
+    text-decoration: none;
+    display: block;
+}
+.hua-mountain .xingxing,.aboutgene .xingxing,.about-mountain .xingxing{
+    width: 85px;
+    height: 16px;
+    position: absolute;
+    left: 170px;
+    top: 10px;
+    margin-top: 20px;
+// float: left;
+// background-color: green;
+}
+.xingxing  li{
+    list-style: none;
+    width: 12px;
+    height: 12px;
+// background: gain;
+    float: left;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+.hua-mountain span,.aboutgene span,.about-mountain span{
+    position: absolute;
+    margin-left: 110px;
+    margin-top: -130px;
+    left: 190px;
+}
+.hua-mountain p,.aboutgene p,.about-mountain p{
+    position: absolute;
+    margin-left: 12px;
+    top: 50px;
+    left: 200px;
+    width: 150px;
+    height: 20px;
+// background-color: blue;
+    font-size: 15px;
+}
+a:hover{
+    color: #FF00FF;
+}
+.aboutprinciple .xingxing,.about-time .xingxing,.about-dynasty .xingxing{
+    width: 85px;
+    height: 16px;
+    position: absolute;
+    left: 170px;
+    top: 10px;
+    margin-top: 20px;
+// background-color: green;
+}
+.aboutprinciple span,.about-time span,.about-dynasty span{
+    position: absolute;
+    margin-left: 110px;
+    margin-top: -130px;
+    left: 190px;
+}
+.aboutprinciple p,.about-time p,.about-dynasty p{
+    position: absolute;
+    margin-left: 12px;
+    top: 50px;
+    left: 200px;
+    width: 150px;
+    height: 20px;
+// background-color: blue;
+    font-size: 15px;
+}
+.introduction{
+    width: 360px;
+    height: 60px;
+// background-color: orangered;
+    position: absolute;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.youdao{
+    position: absolute;
+    right: 60px;
+    top: 50px;
+   // margin-top: 140px;
+    width: 350px;
+    height: 310px;
+// background-color: red;
+
+}
+.label{
+    display: block;
+    font-size: 25px;
+    font-family: "Leelawadee UI", Segoe, Arial, sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+.literature{
+    width:350px;
+    height:100px;
+    position: absolute;
+    right: 60px;
+    top: 100px;
+    margin-top: 300px;
+//background-color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+h2{
+    display: block;
+    font-size: 20px;
+}
+.novel,.suibi,.Japan-literature,.essay,.poetry,.fairy-tale,.masterpiece,.HK-TW,.more{
+    color: darkslateblue;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    background-color:darkgrey;
+    width: 64px;
+    height: 30px;
+    text-decoration: none;
+    border-radius: 4px;
+    border: 1px solid grey;
+
+}
+.novel:hover{
+    background-color: RGBA(65,105,225,.7);
+}
+.suibi:hover{
+    background-color: RGBA(65,105,225,.7);
+}
+.Japan-literature:hover{
+    background-color: RGBA(65,105,225,.7);
+}.essay:hover{
+     background-color: RGBA(65,105,225,.7);
+ }
+.poetry:hover{
+    background-color: RGBA(65,105,225,.7);
+}
+.fairy-tale:hover{
+    background-color: RGBA(65,105,225,.7);
+}
+.masterpiece:hover{
+    background-color: RGBA(65,105,225,.7);
+}
+.HK-TW:hover{
+    background-color: RGBA(65,105,225,.7);
+}
+.more:hover{
+    background-color: RGBA(65,105,225,.7);
+}
+.more{
+    color:black;
+}
+.fairy-tale,.masterpiece,.HK-TW,.more{
+    margin-top: 10px;
+}
+.population{
+    width:350px;
+    height:100px;
+    position: absolute;
+    right: 60px;
+    top: 250px;
+    margin-top: 300px;
+ //background-color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.clture{
+    width:350px;
+    height:100px;
+    position: absolute;
+    right: 60px;
+    top: 300px;
+    margin-top: 400px;
+//background-color: red;
+}
+.connect{
+  //background-color: red;
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 300px;
+    margin-top: 400px;
+    right: 60px;
+    margin-right: -45px;
+}
+.connect p,.connect h2{
+   // position: absolute;
+    //bottom: 20px;
+    margin-top: 20px;
+    //padding: 5px;
+    //border-bottom:1px solid;
+    font-weight: bold;
+    font-size: 20px;
+}
+.qq{
+    left: 0px;
+}
+.weixin{
+    left: 55px;
+}
+.weibo{
+    left: 110px;
+}
+.qq, .weixin, .weibo{
+    position: absolute;
+    top: 150px;
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+//bottom: 165px;
+}
+
+.footer{
+    position: relative;
+
+    height: 50px;
+    top: 1000px;
+    margin-top: 100px;
+    background-color: inherit;
+    bottom: 0px;
+
+}
+.footer span{
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Adobe 楷体 Std R";
+}
+.fright a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Adobe 楷体 Std R";
+    font-weight: bold;
+}

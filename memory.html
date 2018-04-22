@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        body{
+
+            background-image: url("img/花瓣.gif");
+        }
+        .main{
+            margin-left: 200px;
+            margin-top: 40px;
+        }
+        #penal {
+            width: 600px;
+            height: 300px;
+        }
+        #bg{
+            width: 800px;
+            height: 400px;
+            background: #cccccc;
+            display: block;
+            margin-bottom: 20PX;
+        }
+        button ,input{
+            display: inline-block;
+            margin-right: 100px;
+
+        }
+    </style>
+    <script src="js/draw.js"></script>
+</head>
+<body>
+<div class="main">
+    <div id="bg">
+        <canvas id="penal" width="800" height="800"></canvas>
+
+    </div>
+    <div id="select">
+        <button id="pen" style="background-color: brown; width: 80px; height: 30px">铅笔</button>
+        <button id="line" style="background-color: brown; width: 80px; height: 30px">直线</button>
+        <button id="rect" style="background-color: brown; width: 80px; height: 30px">矩形</button>
+        <button id="arc" style="background-color: brown; width: 80px; height: 30px">圆形</button>
+        <br>
+        <br>
+        <button id="robber" style="background-color: brown; width: 80px; height: 30px">橡皮檫</button>
+        <button id="img" style="background-color: brown; width: 80px; height: 30px">图片</button>
+        <button id="save" style="background-color: brown; width: 80px; height: 30px">保存</button>
+        <br>
+        <br>
+        <input type="file" id="file" name="img" style="display: none"/>
+        <input type="color" id="color" style="width: 50px; height:30px"/>
+        <input type="number" id="lineWidth" placeholder="线宽选择" style="width: 100px; height:20px"/>
+    </div>
+
+</div>
+
+
+</body>
+</html>

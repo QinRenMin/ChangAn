@@ -1,0 +1,151 @@
+.most{
+    width: 700px;
+    height: 320px;
+//background-color: red;
+    position: relative;
+    left: 100px;
+    top: 10px;
+    //margin-top: 900px;
+}
+h1{
+    position: relative;
+    top: 10px;
+    right: 10px;
+}
+.hard-work{
+    width: 700px;
+    height: 200px;
+    top: 30px;
+    position: absolute;
+//background-color: darkgrey;
+}
+.most img{
+    margin-top: 20px;
+}
+.most .add{
+    position: absolute;
+    margin-top: 120px;
+    top: 100px;
+    text-decoration: none;
+    left: 8px;
+}
+.most .name{
+    position: absolute;
+    margin-top: 130px;
+    text-decoration: none;
+    //margin-right: 8px;
+    left: 16px;
+    top: 170px;
+}
+.most p,.niuniu p{
+    display: inline;
+    margin-top: 50px;
+    position: absolute;
+    left: 160px;
+}
+.most .hard{
+    margin-top: 130px;
+    position: absolute;
+    top: 170px;
+    left: 90px;
+    text-decoration: none;
+}
+.most .xingxing{
+    position: absolute;
+    margin-top: -120px;
+    left: 260px;
+    margin-left: 30px;
+}
+.major{
+    position: absolute;
+    margin-top: 150px;
+    top: 56px;
+    margin-left: -50px;
+
+}
+.niuniu{
+    width: 700px;
+    height: 200px;
+    top: 30px;
+    position: absolute;
+    left: 300px;
+}
+.lan{
+    position: absolute;
+    width: 700px;
+    height: 200px;
+    top: 30px;
+    left: 600px;
+}
+.xian4{
+    position: absolute;
+    width: 700px;
+    height: 200px;
+    top: 30px;
+    left: 900px;
+}
+.add{
+    width: 200px;
+    height: 30px;
+    text-decoration:none;
+}
+.connect{
+//background-color: yellow;
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 380px;
+
+    left: 100px;
+
+}
+.connect p,.connect h2{
+// position: absolute;
+//bottom: 20px;
+    margin-top: 20px;
+//padding: 5px;
+//border-bottom:1px solid;
+    font-weight: bold;
+    font-size: 20px;
+}
+.qq{
+    left: 0px;
+}
+.weixin{
+    left: 105px;
+}
+.weibo{
+    left: 200px;
+}
+.qq, .weixin, .weibo{
+    position: absolute;
+    top: 120px;
+    width: 55px;
+    height: 55px;
+    border-radius: 5px;
+//bottom: 165px;
+}
+
+.footer{
+    position: relative;
+
+    height: 50px;
+    top: 270px;
+
+    background-color: inherit;
+    bottom: 0px;
+
+}
+.footer span{
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Adobe 楷体 Std R";
+}
+.fright a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Adobe 楷体 Std R";
+    font-weight: bold;
+}
